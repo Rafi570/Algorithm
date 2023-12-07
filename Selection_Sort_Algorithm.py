@@ -2,7 +2,7 @@ class SelectionSort:
     def __init__(self,arr):
         self.arr=arr
     def sort_(self,array):
-        for i in range(len(array)):
+        for i in range(len(array)-1):
             mini=i
             for j in range(i+1,len(array)):
                 if array[j] < array[mini]:
