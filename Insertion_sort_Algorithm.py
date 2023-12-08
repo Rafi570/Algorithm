@@ -13,4 +13,4 @@ class insertion_sort:
 if __name__ == "__main__":
     arr=[1,5,6,9,10,2,8,3]
     ob=insertion_sort(arr)
-    print(ob.sort_(arr))
+    print(ob.sort_())
