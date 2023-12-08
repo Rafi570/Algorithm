@@ -1,7 +1,7 @@
 class insertion_sort:
     def __init__(self,array):
         self.array=array
-    def sort_(self,arr):
+    def sort_(self):
         for i in range(len(arr)):
             item=arr[i]
             j=i-1
