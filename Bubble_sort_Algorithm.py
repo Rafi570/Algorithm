@@ -1,7 +1,4 @@
 class Bubble_sort:
-    def __int__(self,arr):
-        self.arr=arr
-
     def sort_(self,array):
         for i in range(len(array)-1):
             for j in range(len(array)-i-1):
